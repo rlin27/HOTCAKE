@@ -67,7 +67,7 @@ If you want to use HOTCAKE on your own neural network, you can follow the steps 
 
 ## Core Codes
 The proposed HOTCAKE:
-```
+```python
 def HighTKD2(conv_nn_module, k11, k12, r31, r32, r4):
     bias = conv_nn_module.bias
     stride = conv_nn_module.stride
